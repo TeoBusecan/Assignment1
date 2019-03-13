@@ -34,6 +34,16 @@ public class Zboruri {
         ps.setString(3, xyz);
         ps.executeUpdate();
     }
+    /*public void delete() throws SQLException{
+		Connection connection = MyConnection.getConnection();
+		PreparedStatement ps = null;
+		
+		
+		ps=connection.prepareStatement("DELETE FROM zboruri where id = ?");
+		ps.setInt(1, 32);
+		ps.executeUpdate();
+	}*/
+	
 
 
 }
