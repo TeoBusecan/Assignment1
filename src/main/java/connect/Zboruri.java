@@ -40,7 +40,7 @@ public class Zboruri {
 		
 		
 		ps=connection.prepareStatement("DELETE FROM zboruri where id = ?");
-		ps.setInt(1, 32);
+		ps.setInt(3, 42);
 		ps.executeUpdate();
 	}*/
 	
